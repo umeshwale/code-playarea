@@ -1,7 +1,10 @@
 Functional Programming:
     
-    These functions are not the same as the functions used in imperative programming, such as a Java method that returns a value. 
-    Instead, a functional programming function is like a mathematical function, which produces an output that typically depends only on its arguments
+    These functions are not the same as the functions used 
+    in imperative programming, such as a Java method that returns a value. 
+    Instead, a functional programming function is like a 
+    mathematical function, which produces an output that 
+    typically depends only on its arguments
     
 Object Oriented Approach:
     
