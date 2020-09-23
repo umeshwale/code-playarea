@@ -4,7 +4,7 @@ Java Collectors:
     Collectors is a final class that extends Object class. It provides reduction operations,
     such as accumulating elements into collections, summarizing elements according to various criteria, etc.
     
-Collecotrs class provides below utilities:
+Collectors class provides below utilities:
 
     - toList
     - toSet
@@ -12,4 +12,7 @@ Collecotrs class provides below utilities:
     - toUnmodifiableList
     - partioningBy
     - joining
+    - groupingBy
+    - groupingBy with mapping 
+    - 
     

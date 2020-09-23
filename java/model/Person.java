@@ -1,4 +1,6 @@
-package streams;
+package model;
+
+import java.util.List;
 
 public class Person {
 
@@ -36,5 +38,14 @@ public class Person {
         this.age = age;
     }
 
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
 }
