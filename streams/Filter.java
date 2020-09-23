@@ -1,5 +1,3 @@
-package playarea.java8.streams;
-
 import java.util.List;
 
 public class Filter {

@@ -1,7 +1,3 @@
-package playarea.java8.streams;
-
-import playarea.java8.streams.Person;
-
 import java.util.List;
 
 public class Reduce {

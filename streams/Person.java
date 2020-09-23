@@ -1,5 +1,3 @@
-package playarea.java8.streams;
-
 public class Person {
 
     private String firstName;
