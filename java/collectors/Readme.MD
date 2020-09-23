@@ -14,5 +14,12 @@ Collectors class provides below utilities:
     - joining
     - groupingBy
     - groupingBy with mapping 
-    - 
+    - counting
+    - collectingAndThen
+    - sum
+    - max
+    - min
+    - maxBy
+    - minBy
+    - filtering 
     
