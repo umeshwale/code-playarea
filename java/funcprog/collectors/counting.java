@@ -1,10 +1,14 @@
-package streams;
+package funcprog.collectors;
 
-import model.Person;
+import funcprog.model.Person;
 
 import java.util.List;
+import java.util.Map;
 
-public class Filter {
+import static java.util.stream.Collectors.groupingBy;
+import static java.util.stream.Collectors.*;
+
+public class counting {
 
     public static List<Person> createPeople() {
         return List.of(new Person("John", "Smith", 38),
@@ -18,10 +22,13 @@ public class Filter {
     }
 
     public static void main(String[] args) {
-        // Display First Name of Age is more than 30 Years
-        createPeople().stream()
-                .filter(person -> person.getAge()>30)
-                .map(s->s.getFirstName())
-                .forEach(System.out::println);
+        // GroupBy firstname
+        List<Person> people = createPeople();
+
+        // count by Name
+        Map<String, Long> countByName = people.stream()
+                .collect(groupingBy(Person::getFirstName,
+                            counting()));
+        System.out.println(countByName);
     }
 }

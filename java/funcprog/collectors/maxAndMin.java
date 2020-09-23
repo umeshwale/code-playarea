@@ -1,12 +1,10 @@
-package collectors;
+package funcprog.collectors;
 
-import model.Person;
+import funcprog.model.Person;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.OptionalInt;
-import java.util.stream.Collectors;
 
 import static java.util.Comparator.*;
 import static java.util.stream.Collectors.*;

@@ -1,6 +1,4 @@
-package model;
-
-import java.util.List;
+package funcprog.model;
 
 public class Person {
 

@@ -1,10 +1,11 @@
-package streams;
+package funcprog.collectors;
 
-import model.Person;
+import funcprog.model.Person;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
-public class ForEach {
+public class toList {
 
     public static List<Person> createPeople() {
         return List.of(new Person("John", "Smith", 38),
@@ -18,6 +19,11 @@ public class ForEach {
     }
 
     public static void main(String[] args) {
-        createPeople().forEach(System.out::println);
+        // Display First Name of Age is more than 30 Years
+        List newList = createPeople().stream()
+                .filter(person -> person.getAge()>30)
+                .map(s->s.getFirstName())
+                .collect(Collectors.toList());
+        System.out.println(newList);
     }
 }

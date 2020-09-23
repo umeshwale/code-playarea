@@ -1,11 +1,13 @@
-package collectors;
+package funcprog.collectors;
 
-import model.Person;
+import funcprog.model.Person;
 
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Map;
 
-public class toList {
+import static java.util.stream.Collectors.*;
+
+public class collectingAndThen {
 
     public static List<Person> createPeople() {
         return List.of(new Person("John", "Smith", 38),
@@ -19,11 +21,13 @@ public class toList {
     }
 
     public static void main(String[] args) {
-        // Display First Name of Age is more than 30 Years
-        List newList = createPeople().stream()
-                .filter(person -> person.getAge()>30)
-                .map(s->s.getFirstName())
-                .collect(Collectors.toList());
-        System.out.println(newList);
+        // GroupBy firstname
+        List<Person> people = createPeople();
+
+        // counting returns Long value but we need to convert it to Integer.
+        Map<String, Integer> countByName = people.stream()
+                .collect(groupingBy(Person::getFirstName,
+                        collectingAndThen(counting(), Long::intValue)));
+        System.out.println(countByName);
     }
 }

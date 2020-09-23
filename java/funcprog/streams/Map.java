@@ -1,14 +1,10 @@
-package collectors;
+package funcprog.streams;
 
-import model.Person;
+import funcprog.model.Person;
 
 import java.util.List;
-import java.util.Map;
 
-import static java.util.stream.Collectors.groupingBy;
-import static java.util.stream.Collectors.*;
-
-public class counting {
+public class Map {
 
     public static List<Person> createPeople() {
         return List.of(new Person("John", "Smith", 38),
@@ -22,13 +18,10 @@ public class counting {
     }
 
     public static void main(String[] args) {
-        // GroupBy firstname
-        List<Person> people = createPeople();
-
-        // count by Name
-        Map<String, Long> countByName = people.stream()
-                .collect(groupingBy(Person::getFirstName,
-                            counting()));
-        System.out.println(countByName);
+        // Display FirstName from the Map in UPPERCASE
+        createPeople().stream()
+                .map(Person::getFirstName)
+                .map(String::toUpperCase)
+                .forEach(System.out::println);
     }
 }

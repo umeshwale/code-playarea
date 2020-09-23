@@ -1,13 +1,10 @@
-package collectors;
+package funcprog.streams;
 
-import model.Person;
+import funcprog.model.Person;
 
 import java.util.List;
-import java.util.Map;
 
-import static java.util.stream.Collectors.*;
-
-public class collectingAndThen {
+public class ForEach {
 
     public static List<Person> createPeople() {
         return List.of(new Person("John", "Smith", 38),
@@ -21,13 +18,6 @@ public class collectingAndThen {
     }
 
     public static void main(String[] args) {
-        // GroupBy firstname
-        List<Person> people = createPeople();
-
-        // counting returns Long value but we need to convert it to Integer.
-        Map<String, Integer> countByName = people.stream()
-                .collect(groupingBy(Person::getFirstName,
-                        collectingAndThen(counting(), Long::intValue)));
-        System.out.println(countByName);
+        createPeople().forEach(System.out::println);
     }
 }

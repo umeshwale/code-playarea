@@ -1,6 +1,6 @@
-package streams;
+package funcprog.streams;
 
-import model.Person;
+import funcprog.model.Person;
 
 import java.util.List;
 
@@ -21,7 +21,7 @@ public class Reduce {
         // Get total age of all the members
         /*\
             Reduce takes collection and reduces to a single value
-            Reduce converts streams to something concrete
+            Reduce converts funcprog.streams to something concrete
             JAva has reduce in two forms 1. reduce 2. collect
          */
         System.out.println(createPeople().stream()

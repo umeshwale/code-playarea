@@ -1,10 +1,10 @@
-package streams;
+package funcprog.streams;
 
-import model.Person;
+import funcprog.model.Person;
 
 import java.util.List;
 
-public class Map {
+public class Filter {
 
     public static List<Person> createPeople() {
         return List.of(new Person("John", "Smith", 38),
@@ -18,10 +18,10 @@ public class Map {
     }
 
     public static void main(String[] args) {
-        // Display FirstName from the Map in UPPERCASE
+        // Display First Name of Age is more than 30 Years
         createPeople().stream()
-                .map(Person::getFirstName)
-                .map(String::toUpperCase)
+                .filter(person -> person.getAge()>30)
+                .map(s->s.getFirstName())
                 .forEach(System.out::println);
     }
 }

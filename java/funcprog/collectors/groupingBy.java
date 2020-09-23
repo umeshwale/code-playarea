@@ -1,6 +1,6 @@
-package collectors;
+package funcprog.collectors;
 
-import model.Person;
+import funcprog.model.Person;
 
 import java.util.ArrayList;
 import java.util.HashMap;

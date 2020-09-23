@@ -1,4 +1,4 @@
-package streams;
+package funcprog.streams;
 
 import java.util.Arrays;
 import java.util.List;

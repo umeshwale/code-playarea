@@ -1,6 +1,6 @@
 package funcprog;
 
-import model.Person;
+import funcprog.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;
