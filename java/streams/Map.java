@@ -1,6 +1,8 @@
+package streams;
+
 import java.util.List;
 
-public class Filter {
+public class Map {
 
     public static List<Person> createPeople() {
         return List.of(new Person("Umesh", "Wale", 38),
@@ -11,10 +13,10 @@ public class Filter {
     }
 
     public static void main(String[] args) {
-        // Display First Name of Age is more than 30 Years
+        // Display FirstName from the Map in UPPERCASE
         createPeople().stream()
-                .filter(person -> person.getAge()>30)
-                .map(s->s.getFirstName())
+                .map(Person::getFirstName)
+                .map(String::toUpperCase)
                 .forEach(System.out::println);
     }
 }

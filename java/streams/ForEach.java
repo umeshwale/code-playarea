@@ -1,6 +1,8 @@
+package streams;
+
 import java.util.List;
 
-public class Map {
+public class ForEach {
 
     public static List<Person> createPeople() {
         return List.of(new Person("Umesh", "Wale", 38),
@@ -11,10 +13,6 @@ public class Map {
     }
 
     public static void main(String[] args) {
-        // Display FirstName from the Map in UPPERCASE
-        createPeople().stream()
-                .map(Person::getFirstName)
-                .map(String::toUpperCase)
-                .forEach(System.out::println);
+        createPeople().forEach(System.out::println);
     }
 }

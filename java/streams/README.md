@@ -21,4 +21,6 @@ Feature includes -
     - ForEach
     - Reduce
     - Collect
+    - Sorted
+    - limit
 

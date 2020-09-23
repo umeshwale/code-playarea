@@ -1,6 +1,8 @@
+package streams;
+
 import java.util.List;
 
-public class ForEach {
+public class Filter {
 
     public static List<Person> createPeople() {
         return List.of(new Person("Umesh", "Wale", 38),
@@ -11,6 +13,10 @@ public class ForEach {
     }
 
     public static void main(String[] args) {
-        createPeople().forEach(System.out::println);
+        // Display First Name of Age is more than 30 Years
+        createPeople().stream()
+                .filter(person -> person.getAge()>30)
+                .map(s->s.getFirstName())
+                .forEach(System.out::println);
     }
 }
