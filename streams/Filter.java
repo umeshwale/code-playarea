@@ -11,8 +11,10 @@ public class Filter {
     }
 
     public static void main(String[] args) {
+        // Display First Name of Age is more than 30 Years
         createPeople().stream()
                 .filter(person -> person.getAge()>30)
+                .map(s->s.getFirstName())
                 .forEach(System.out::println);
     }
 }

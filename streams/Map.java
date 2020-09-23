@@ -11,8 +11,10 @@ public class Map {
     }
 
     public static void main(String[] args) {
+        // Display FirstName from the Map in UPPERCASE
         createPeople().stream()
                 .map(Person::getFirstName)
+                .map(String::toUpperCase)
                 .forEach(System.out::println);
     }
 }
