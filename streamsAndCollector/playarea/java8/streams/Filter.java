@@ -1,8 +1,8 @@
-package playarea.streamsAndCollector;
+package playarea.java8.streams;
 
 import java.util.List;
 
-public class Map {
+public class Filter {
 
     public static List<Person> createPeople() {
         return List.of(new Person("Umesh", "Wale", 38),
@@ -14,7 +14,7 @@ public class Map {
 
     public static void main(String[] args) {
         createPeople().stream()
-                .map(Person::getFirstName)
+                .filter(person -> person.getAge()>30)
                 .forEach(System.out::println);
     }
 }

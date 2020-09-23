@@ -1,8 +1,10 @@
-package playarea.streamsAndCollector;
+package playarea.java8.streams;
+
+import playarea.java8.streams.Person;
 
 import java.util.List;
 
-public class ForEach {
+public class Map {
 
     public static List<Person> createPeople() {
         return List.of(new Person("Umesh", "Wale", 38),
@@ -13,6 +15,8 @@ public class ForEach {
     }
 
     public static void main(String[] args) {
-        createPeople().forEach(System.out::println);
+        createPeople().stream()
+                .map(Person::getFirstName)
+                .forEach(System.out::println);
     }
 }

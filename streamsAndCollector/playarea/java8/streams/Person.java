@@ -1,4 +1,4 @@
-package playarea.streamsAndCollector;
+package playarea.java8.streams;
 
 public class Person {
 
