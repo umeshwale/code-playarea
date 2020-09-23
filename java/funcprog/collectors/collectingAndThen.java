@@ -23,7 +23,10 @@ public class collectingAndThen {
     public static void main(String[] args) {
         // GroupBy firstname
         List<Person> people = createPeople();
-
+        /*
+        CollectingAndThen is a special collector that allows performing another action
+        on a result straight after collecting ends.
+         */
         // counting returns Long value but we need to convert it to Integer.
         Map<String, Integer> countByName = people.stream()
                 .collect(groupingBy(Person::getFirstName,
