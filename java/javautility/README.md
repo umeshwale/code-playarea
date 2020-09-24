@@ -1,3 +1,3 @@
 Java Utility Classes:
 
-    - [ Collections Notes ] [Collctions.md]
+    - Read here: [Java Collections](Collections.md)
