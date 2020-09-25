@@ -22,4 +22,5 @@ Collectors class provides below utilities:
     - maxBy
     - minBy
     - filtering 
+    - flatMapping
     

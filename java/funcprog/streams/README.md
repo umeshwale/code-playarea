@@ -23,4 +23,5 @@ Feature includes -
     - Collect
     - Sorted
     - limit
+    - flatMap
 
