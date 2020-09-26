@@ -31,3 +31,20 @@ Function:
         It returns a composed function wherein the parameterized function will be executed first and then the first one. 
         If evaluation of either function throws an error, 
         it is relayed to the caller of the composed function.
+        
+    What is difference between adnThen() & Compose 
+        andThen() -
+            f1.andThen(f2).apply(i);
+                Here first f1 will be applied and then f2 will be applied 
+            Example:
+             Function<Integer, Integer> f1 = i -> i*2;
+             Function<Integer, Integer> f2 = i -> i*i*i;
+             System.out.println("compose Example: "+f1.andThen(f2).apply(2));  = output =64
+        compose() - 
+            f1.compose(f2).apply(i);
+                Here first f2 will be applied and then f1 will be applied
+            Example:
+                 Function<Integer, Integer> f1 = i -> i*2;
+                 Function<Integer, Integer> f2 = i -> i*i*i;
+                 System.out.println("compose Example: "+f1.compose(f2).apply(2));  = output =16
+        

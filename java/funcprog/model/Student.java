@@ -1,6 +1,10 @@
 package funcprog.model;
 
 public class Student {
+
+    String name;
+    int marks;
+
     public String getName() {
         return name;
     }
@@ -16,9 +20,6 @@ public class Student {
     public void setMarks(int marks) {
         this.marks = marks;
     }
-
-    String name;
-    int marks;
 
     public Student(String name, int marks) {
         this.name = name;

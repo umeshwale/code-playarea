@@ -19,14 +19,18 @@ import java.util.function.Function;
 
 public class FunctionExApplyAndThen {
     public static void main(String[] args) {
-        // Function which takes in a number and
-        // returns half of it
-        Function<Integer, Double> half = a -> a / 2.0;
 
+        Function<Integer, Integer> f1 = i -> i*2;
+        Function<Integer, Integer> f2 = i -> i*i*i;
+        System.out.println("andThen Example: "+f1.andThen(f2).apply(2));
+
+
+        Function<Integer, Double> half = a -> a / 2.0;
         // Now treble the output of half function
         half = half.andThen(a -> 3 * a);
-
         // apply the function to get the result
         System.out.println(half.apply(10));
+
+
     }
 }

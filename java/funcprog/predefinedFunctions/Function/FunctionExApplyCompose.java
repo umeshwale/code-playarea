@@ -26,12 +26,14 @@ import java.util.function.Function;
 public class FunctionExApplyCompose {
     public static void main(String[] args) {
 
+        Function<Integer, Integer> f1 = i -> i*2;
+        Function<Integer, Integer> f2 = i -> i*i*i;
+        System.out.println("compose Example: "+f1.compose(f2).apply(2));
+
         // Function which takes in a number and returns half of it
         Function<Integer, Double> f = i -> i / 2.0;
-
         // However treble the value given to half function
         f = f.compose(i -> 3*i);
-
         // apply the function to get the result
         System.out.println(f.apply(5));
     }
