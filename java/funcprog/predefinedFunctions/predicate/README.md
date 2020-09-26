@@ -5,8 +5,7 @@ Predicate:
     The return type of a Lambda function (introduced in JDK 1.8) is a also functional interface.
     
     The Functional Interface PREDICATE is defined in the java.util.Function package. 
-    It improves manageability of code, helps in unit-testing them separately, and contain some methods like:
-    
+    It improves manageability of code, helps in unit-testing them separately, and contain some methods.    
 
     - This is a functional interface and can therefore be used as the assignment target for a 
             lambda expression or method reference.

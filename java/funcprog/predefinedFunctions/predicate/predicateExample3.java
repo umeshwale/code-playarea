@@ -4,15 +4,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-class Employee {
-    String name;
-    long salary;
-    public Employee(String name, long salary) {
-        this.name = name;
-        this.salary = salary;
-    }
-}
-
 public class predicateExample3 {
     public static void main(String[] args) {
 
