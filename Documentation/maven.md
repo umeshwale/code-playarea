@@ -96,4 +96,5 @@ Maven
             runtime - This scope indicates that dependency is not required for compilation, but is required during execution.
             test - This scope indicates that the dependency is only available for the test compilation and execution phases.
             system -  This scope indicates that you have to provide the system path.
-            import - This scope is only used when dependency is of type pom. This scope indicates that the specified POM should be replaced with the dependencies in that POM's <dependencyManagement> section.    
+            import - This scope is only used when dependency is of type pom. This scope indicates that the specified POM should
+                      be replaced with the dependencies in that POM's <dependencyManagement> section.    
