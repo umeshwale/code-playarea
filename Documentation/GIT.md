@@ -1,4 +1,4 @@
-#GIT
+# GIT
 
     Git is a distributed revision control and source code management system 
     with an emphasis on speed. 
