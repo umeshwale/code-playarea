@@ -43,7 +43,8 @@ Maven
             Each build phase consist of sequence of goals.
             Each goal is reposible for a particular task.
         Build Profiles:
-            Build profile refers to the set of configuration values, that are required to build a project using different configurations.
+            Build profile refers to the set of configuration values, that are required to build a project 
+            using different configurations.
         Build Plugins:
             Maven plugin referes to the group of goals. These goals may or may not be of same phase.
             The plugins are used to perform specific goals.
@@ -62,7 +63,8 @@ Maven
             validate : validate the project is correct and all necessary information is available.
             Compile: compile will compile the source code
             Test-Compile: Test compile will compile the Test source code
-            Test: test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed
+            Test: test the compiled source code using a suitable unit testing framework. These tests should not require 
+                the code be packaged or deployed
             Package: take the compiled code and package it in its distributable format, such as a JAR/WAR/EAR
             Integration-Test: process and deploy the package if necessary into an environment where integration tests can be run.
             Verify:  run any checks to verify the package is valid and meets quality criteria. 
