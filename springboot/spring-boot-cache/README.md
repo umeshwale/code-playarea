@@ -15,7 +15,8 @@ Spring boot cache annotations:
     
     It enables Spring’s annotation-driven cache management capability. 
     In spring boot project, we need to add it to the boot application class annotated with @SpringBootApplication. 
-    Spring provides one concurrent hashmap as default cache, but we can override CacheManager to register external cache providers as well easily.    
+    Spring provides one concurrent hashmap as default cache, but we can override CacheManager to register external cache 
+    providers as well easily.    
     
     @SpringBootApplication
     @EnableCaching
@@ -60,8 +61,8 @@ Spring boot cache annotations:
     When CacheEvict annotated methods will be executed, it will clear the cache.
     
     We can specify key here to remove cache, if we need to remove all the entries of the cache then we need to use allEntries=true.
-    This option comes in handy when an entire cache region needs to be cleared out – rather then evicting each entry (which would take a long time
-    since it is inefficient), all the entries are removed in one operation.
+    This option comes in handy when an entire cache region needs to be cleared out – rather then evicting each entry (which would 
+    take a long time since it is inefficient), all the entries are removed in one operation.
     
 Maven Dependency:
 
