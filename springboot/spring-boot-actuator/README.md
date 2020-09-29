@@ -28,4 +28,4 @@ Some important Spring Boot Actuator endpoints are given below. You can enter the
     /beans	:   To view the Spring beans and its types, scopes and dependency.
     /health	:   To view the application health
     /info	:   To view the information about the Spring Boot application.
-    /trace	:   To view the list of Traces of your Rest endpoints.
+    /trace	:   To view the list of Traces of your Rest endpoints. A  A 

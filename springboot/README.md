@@ -6,3 +6,4 @@
 - [Spring Boot-JPA-CRUD](spring-boot-JPA-CRUD/README.md)
 - [Spring Boot-Scheduler](spring-boot-scheduler/README.md)
 - [Spring Boot-Actuator](spring-boot-actuator/README.md)
+- [Spring Boot-Cache](spring-boot-cache/README.md)
