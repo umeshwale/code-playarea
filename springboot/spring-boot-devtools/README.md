@@ -18,7 +18,8 @@ Enabling Dev Tools Module
     
 Enable/Disable Live reload:
 
-    The spring-boot-devtools module includes an embedded LiveReload server that can be used to trigger a browser refresh when a resource is changed.
+    The spring-boot-devtools module includes an embedded LiveReload server that can be used 
+    to trigger a browser refresh when a resource is changed.
     Precondition is that your browser should have supported extention for it. 
     You can find such browser extentions in this link.
     

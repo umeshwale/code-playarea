@@ -1,7 +1,8 @@
 # Spring Boot - Flyway Database
 
     Flyway is a version control application to evolve your Database schema easily and reliably across all your instances.
-    Many software projects use relational databases. This requires the handling of database migrations, also often called schema migrations.
+    Many software projects use relational databases. 
+    This requires the handling of database migrations, also often called schema migrations.
     
 Configuring Flyway Database:
 
