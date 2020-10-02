@@ -8,3 +8,4 @@
 - [Spring Boot-Actuator](spring-boot-actuator/README.md)
 - [Spring Boot-Cache](spring-boot-cache/README.md)
 - [Spring Boot-Flyway DB](spring-boot-flyway/README.md)
+- [Spring Boot-Devtools](spring-boot-devtools/README.md)
