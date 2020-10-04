@@ -46,7 +46,8 @@ Advantages or key facts of making use of them in Java
                 void save(Employee employee );
               }
               
-        Now controller doesn’t care about the concrete implementation of service, it is only aware of this interface, which has a save method.
+        Now controller doesn’t care about the concrete implementation of service, 
+        it is only aware of this interface, which has a save method.
         
             public class EmployeeServiceRDS implements EmployeeRegistrationService {
                @Override 
