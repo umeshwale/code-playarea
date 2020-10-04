@@ -10,3 +10,4 @@
 - [Spring Boot-Flyway DB](spring-boot-flyway/README.md)
 - [Spring Boot-Devtools](spring-boot-devtools/README.md)
 - [Spring Boot-Thymleaf](spring-boot-thymleaf/README.md)  (Used [H2](spring-boot-H2DB/README.md), [Web](spring-boot-demo/README.md), [JPA](spring-boot-JPA-CRUD/README.md), [Flyway](spring-boot-flyway/README.md))
+- [Spring Boot-HATEOS](spring-boot-hateos/README.md)
