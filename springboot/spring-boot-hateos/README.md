@@ -1,6 +1,7 @@
 # Spring Boot HATEOS
 
-HATEOAS is an acronym for Hypermedia As The Engine Of Application State. 
+HATEOAS is an acronym for Hypermedia As The Engine Of Application State.
+ 
 HAL – Hypertext Application Language
 
 
@@ -38,9 +39,11 @@ Add Spring HATEOS Support
         </dependency>          
             
     - Add RepresentationModel Support to model bean 
-        To easily create hypermedia enriched representations, Spring HATEOAS provides a set of classes with RepresentationModel at their root. 
+        To easily create hypermedia enriched representations, Spring HATEOAS provides a set of classes with 
+        RepresentationModel at their root. 
         It’s basically a container for a collection of Links and has convenient methods to add those to the model. 
-        The models can later be rendered into various media type formats that will define how the hypermedia elements look in the representation. 
+        The models can later be rendered into various media type formats that will define how the hypermedia elements 
+        look in the representation. 
         
             class Person extends RepresentationModel<Person> {
                 int age;
