@@ -324,4 +324,3 @@ How do JSON Web Tokens work?
         Authorization header using the Bearer schema. 
         The content of the header should look like the following:
 
-![](/JWT_Authorization_Process.PNG)
