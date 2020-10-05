@@ -1,9 +1,9 @@
 # GIT
-
+    
     Git is a distributed revision control and source code management system 
     with an emphasis on speed. 
     
-    **Advantages of Git**
+    Advantages of Git
         - Free and open source
         - Fast and small
         - Implicit backup
@@ -11,7 +11,7 @@
         - No need of powerful hardware
         - Easier branching
     
-    **Basic workflow of Git**
+    Basic workflow of Git
         Step 1 − You modify a file from the working directory.
         Step 2 − You add these files to the staging area.
         Step 3 − You perform commit operation that moves the files from the staging area.
@@ -32,4 +32,4 @@
             # adds file to the staging area
             [bash]$ git commit –m “Added search operation”
         
-        
+       

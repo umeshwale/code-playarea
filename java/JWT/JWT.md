@@ -314,4 +314,14 @@
            If you want to read more about JSON Web Tokens and even start using them to perform authentication 
            in your own applications,
            browse to the JSON Web Token landing page at Auth0.
-               
+           
+How do JSON Web Tokens work?
+
+        In authentication, when the user successfully logs in using their credentials, a JSON Web Token will be returned. 
+        Since tokens are credentials, great care must be taken to prevent security issues
+        
+        Whenever the user wants to access a protected route or resource, the user agent should send the JWT, typically in the 
+        Authorization header using the Bearer schema. 
+        The content of the header should look like the following:
+
+<img src="file://Documentation/images/JWT_Authorization_Process.PNG" alt="JWT_Process" width="200"/>
