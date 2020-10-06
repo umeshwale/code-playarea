@@ -1,10 +1,13 @@
 # code-playarea
   
-- Read here: [Java Functional Programming ](java/funcprog/README.md)
+- Java:
+    - [Core Java](java/javautility/README.md)
+    
+    - [Java Functional Programming ](java/funcprog/Readme.md)
+    
+    - [RxJava](RxJava/README.MD)
 
 - Read here: [Spring Boot](springboot/README.md)
-
-- Read here: [RxJava](RxJava/README.MD)
 
 - Read here: [Maven](Documentation/maven.md)
 
