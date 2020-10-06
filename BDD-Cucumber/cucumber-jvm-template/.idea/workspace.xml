@@ -47,6 +47,8 @@
       <change afterPath="$PROJECT_DIR$/target/test-classes/Demo.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/DemoDefinition.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/RunDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
