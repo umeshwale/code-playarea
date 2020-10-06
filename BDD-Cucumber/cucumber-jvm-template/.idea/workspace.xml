@@ -23,32 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ff32fa3-b4dd-4bd5-aa23-44e7a691dca6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/code-playarea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BDD.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cucumber.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Gherkin.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cucumber-jvm-template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DemoDefinition.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Demo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-jvm-template-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Demo.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/DemoDefinition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/RunDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../springboot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cucumber.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Cucumber.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

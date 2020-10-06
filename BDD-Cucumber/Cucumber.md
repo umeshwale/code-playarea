@@ -25,8 +25,9 @@ Verify Cucumber support in Intellij
         2. Cucumber for Java
         3. Cucumber for Groovy
         
-Create sample Cucumber Project
-    Followed steps from https://www.hindsightsoftware.com/blog/cucumber-jvm-intellij
+Create sample Cucumber Project:
+
+   Followed steps from https://www.hindsightsoftware.com/blog/cucumber-jvm-intellij
     
     1. Create Demo Feature file and list all your scenario, step definitions - Ex Demo.feature
     2. Create Runner class - Ex RunDemo.java
