@@ -3,7 +3,7 @@
 - Java:
     - [Core Java](java/javautility/README.md)
     
-    - [Java Functional Programming ](java/funcprog/Readme.md)
+    - [Java Functional Programming ](java/funcprog)
     
     - [RxJava](RxJava/README.MD)
 
