@@ -1,13 +1,13 @@
 # code-playarea
   
 - Java:
-    - [Core Java](java/javautility/README.md)
+    - [Core Java](java/javautility)
     
     - [Java Functional Programming ](java/funcprog)
     
-    - [RxJava](RxJava/README.MD)
+    - [RxJava](RxJava)
 
-- Read here: [Spring Boot](springboot/README.md)
+- Read here: [Spring Boot](springboot)
 
 - Read here: [Maven](Documentation/maven.md)
 
@@ -15,7 +15,7 @@
 
 - Read here: [JWT](java/JWT/JWT.md)
 
-- API Automation:
+- [API Automation:](BDD-Cucumber)
   
     - [BDD - Behavior Driven Development](BDD-Cucumber/BDD.MD)
    
