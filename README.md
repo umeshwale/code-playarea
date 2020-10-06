@@ -14,9 +14,9 @@
 
 - API Automation:
   
-    - [BDD - Behavior Driven Development](BDD-Cucumber/BDD.md)
+    - [BDD - Behavior Driven Development](BDD-Cucumber/BDD.MD)
    
-    - [Gherkin]((BDD-Cucumber/Gherkin.md))
+    - [Gherkin](BDD-Cucumber/Gherkin.md)
    
-    - [Cucumber]((BDD-Cucumber/Cucumber.md))
+    - [Cucumber](BDD-Cucumber/Cucumber.md)
   
