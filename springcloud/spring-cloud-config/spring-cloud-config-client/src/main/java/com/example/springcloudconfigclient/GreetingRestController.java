@@ -1,4 +1,4 @@
-package com.example.configgreetingservice;
+package com.example.springcloudconfigclient;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,11 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingRestController {
 
     @Value("${message}")
-    private String msg;
+    public String msg;
 
     @RequestMapping("/message")
-    public String greeting() {
-        return this.msg;
+    public String getMessage() {
+        return msg;
     }
-
 }
