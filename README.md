@@ -9,6 +9,8 @@
 
 - Read here: [Spring Boot](springboot)
 
+- Read here: [Spring Cloud](springcloud)
+
 - Read here: [Maven](Documentation/maven.md)
 
 - Read here: [GIT](Documentation/GIT.md)
