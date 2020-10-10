@@ -1,0 +1,1 @@
+message = This message is coming from external configuration properties
