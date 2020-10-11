@@ -17,3 +17,4 @@
 - [Spring Boot-Devtools](spring-boot-devtools)
 - [Spring Boot-Thymleaf](spring-boot-thymleaf)  (Used [H2](spring-boot-H2DB), [Web](spring-boot-demo), [JPA](spring-boot-JPA-CRUD), [Flyway](spring-boot-flyway))
 - [Spring Boot-HATEOS](spring-boot-hateos)
+- [Value Annotation Example in Spring Boot](spring-boot-valueExample)
