@@ -25,4 +25,6 @@
     - [Gherkin](BDD-Cucumber/Gherkin.md)
    
     - [Cucumber](BDD-Cucumber/Cucumber.md)
+- Other Readings
+    - [Qualities of Highly Effective Architect](QualitiesOfHighlyEffectiveArchitect.md)
   
