@@ -21,3 +21,4 @@
 - [Spring Boot-HATEOS](spring-boot-hateos)
 - [Value Annotation Example in Spring Boot](spring-boot-valueExample)
 - [Spring Boot-Swagger](spring-boot-swagger)
+- [Spring Boot-Concepts](spring-boot-concepts)
