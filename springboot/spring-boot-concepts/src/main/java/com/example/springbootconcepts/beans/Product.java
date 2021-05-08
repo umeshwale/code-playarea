@@ -1,4 +1,4 @@
-package com.example.springbootconcepts;
+package com.example.springbootconcepts.beans;
 
 public class Product {
     public String getProductName() {

@@ -1,6 +1,6 @@
-package com.example.springbootconcepts;
+package com.example.springbootconcepts.controller;
 
-import org.springframework.stereotype.Controller;
+import com.example.springbootconcepts.beans.Product;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
