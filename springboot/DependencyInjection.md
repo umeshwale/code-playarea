@@ -6,6 +6,39 @@ Real Life Based Introduction to Dependency Injection
     dependency to do these activity. But when we say person can eat then person has dependency on food to eat & satisfying  
     this is dependecy injection. 
     
+            @RestController
+            @RequestMapping("/test")
+            public class TestController {
+
+                @Autowired
+                Person person;
+
+                @GetMapping
+                public void test() {
+                    person.run();
+                    person.eat();
+                }
+            }
+
+
+            @Component
+            public class Person {
+
+                @Autowired
+                Food food;
+
+                public void run() { System.out.println("Person can run"); }
+
+                public void eat() { food.eat(); }
+            }
+            
+            @Component
+            public class Food {
+                public void eat() { System.out.println("Person can eat food");    }
+            }
+
+
+    
    
     
     Scenario 1:
