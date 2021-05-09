@@ -2,6 +2,45 @@
 
 Real Life Based Introduction to Dependency Injection
 
+    One Lehman analogy to understand Dependency injection is - Every human can run, walk, breath by himself and he dont have 
+    dependency to do these activity. But when we say person can eat then person has dependency on food to eat & satisfying  
+    this is dependecy injection. 
+    
+            @RestController
+            @RequestMapping("/test")
+            public class TestController {
+
+                @Autowired
+                Person person;
+
+                @GetMapping
+                public void test() {
+                    person.run();
+                    person.eat();
+                }
+            }
+
+
+            @Component
+            public class Person {
+
+                @Autowired
+                Food food;
+
+                public void run() { System.out.println("Person can run"); }
+
+                public void eat() { food.eat(); }
+            }
+            
+            @Component
+            public class Food {
+                public void eat() { System.out.println("Person can eat food");    }
+            }
+
+
+    
+   
+    
     Scenario 1:
         You work in an organization where you and your colleagues tend to travel a lot. 
         Generally you travel by air and every time you need to catch a flight, you arrange for a pickup by a cab. 
