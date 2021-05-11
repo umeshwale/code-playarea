@@ -48,3 +48,21 @@ FETCH common records between 2 tables
     SELECT * from TABLE_1
     INTERSECT 
     SELECT * FROM TABLE_2;
+
+FETCH Employee First_Name in upper case. 
+
+    SELECT FIRST_NAME AS UPPER (EMP_FIRST_NAME) FROM EMPLOYEE;
+    
+Fetch top 10 records
+
+    SELECT TOP 10* FROM EMPLOYEE 
+        ORDER BY SALARY DESC;
+        
+Retrieve Employee FIRST_NAME and LAST_NAME in single colum as FULL_NAME separated with space
+
+    SELECT CONCAT (FIRST_NAME, ' ', LAST_NAME) AS 'FULL_NAME'
+        FROM EMPLOYEES;
+        
+
+        
+    
