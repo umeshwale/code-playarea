@@ -20,5 +20,31 @@ Print details of employees whose salary lies between 10000 and 50000
 
     SELECT * FROM EMPLOYEE WHERE SALARY BETWEEN 10000 AND 50000;
     
+Fetch only the first name from FULL_NAME (Umesh Wale) column of EMPLOYEES table
 
+    SELECT substring(FULL_NAME, 0, charindex(' ', FULL_NAME)) from EMPLOYEES;
 
+Fetch duplicate records from table EMPLOYEE
+
+    SELECT EMP_ID, DEPT, COUNT(*)
+    FROM EMPLOYEE
+    GROUP BY EMP_ID, DEPT
+    HAVING COUNT(*)>1
+    
+Remove duplicates from table EMPLOYEE
+    
+    DELETE FROM EMPLOYEE 
+    Where (SELECT EMP_ID, COUNT(*)
+        FROM EMPLOYEE
+        GROUP BY EMP_ID
+        HAVING COUNT(*)>1);
+        
+Create empty table with same structure as some other table 
+
+    SELECT * INTO NEW_TABLE FROM OLD_TABLE WHERE 1=0;
+    
+FETCH common records between 2 tables 
+
+    SELECT * from TABLE_1
+    INTERSECT 
+    SELECT * FROM TABLE_2;
