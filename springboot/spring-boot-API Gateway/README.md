@@ -8,9 +8,9 @@ What is API Gateway in microservice
    
    Below is issue - 
    
-   ![Click Here]
+   ![Click Here](https://github.com/umeshwale/code-playarea/blob/master/springboot/spring-boot-API%20Gateway/Consumer%20Challenge.JPG)
    
-   Please refer image below for API Gateway -
-   
+   To resolve this issue we need to add one abstraction gateway which acts as fascade and just redirects requests as below - 
+      
    ![Click Here](https://github.com/umeshwale/code-playarea/blob/master/springboot/spring-boot-API%20Gateway/API%20Gateway.JPG)
    
