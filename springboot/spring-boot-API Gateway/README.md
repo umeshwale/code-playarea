@@ -19,6 +19,7 @@ What is API Gateway in microservice
    ![Click](https://github.com/umeshwale/code-playarea/blob/master/springboot/spring-boot-API%20Gateway/API%20Gateway1.JPG)
    
    Now since we are using it as one point of entry for your services we will be able to take advantage of this to implement below - 
+   
       - Security
       - Authentication 
       - CORS / CSRF 
