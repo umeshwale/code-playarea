@@ -323,4 +323,3 @@ How do JSON Web Tokens work?
         Whenever the user wants to access a protected route or resource, the user agent should send the JWT, typically in the 
         Authorization header using the Bearer schema. 
         The content of the header should look like the following:
-
