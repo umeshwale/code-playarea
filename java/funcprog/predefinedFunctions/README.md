@@ -31,7 +31,8 @@ This space is created to demonstrate Pre Defined Functions
 
             Take some input and perform some conditional check and return BOOLEAN value
             Normal predicate can take only one input parameter and perform some action and return boolean. 
-            Sometimes we have requirement to perform some action on two input parameters for this kind of requirement Bipredicate can be used.
+            Sometimes we have requirement to perform some action on two input parameters for this kind of 
+            requirement Bipredicate can be used.
             
             BiPredicate is exactly same as Predicate except that it will take 2 input arguments
             
