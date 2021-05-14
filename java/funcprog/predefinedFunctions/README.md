@@ -1,25 +1,34 @@
 This space is created to demonstrate Pre Defined Functions    
 
-    - Predicate<T t> - boolean return 
-    Take some input and perform some conditional check and return BOOLEAN value
-        1. test (T t)
-        2. or(Predicate other) 
-        3. and(Predicate other) 
-        4. negate()
-        5. isEqual(Object targetRef)
-    - Function<T, R> - R return 
-    Take some input and perform some operation and then return the result which can be of any type. 
-        1. apply(T t)
-        2. andThen(Function<? super R,? extends V> after)
-        3. compose(Function<? super V,? extends T> before)
-        4. identity() - Returns a function that always returns its input argument.
-    - Consumer<T> - void return 
-    Accept some input and perform some required operation and not required to return anything (void)
-        1. accept(T t)
-        2. andThen(Consumer<? super T> after)
-    - Supplier<R> - accepts void and returns R
-        1. get()
-    -BiPredicate<T t, T t> - boolean return 
+- Predicate<T t> - boolean return 
+    
+        Take some input and perform some conditional check and return BOOLEAN value
+            1. test (T t)
+            2. or(Predicate other) 
+            3. and(Predicate other) 
+            4. negate()
+            5. isEqual(Object targetRef)
+
+- Function<T, R> - R return 
+    
+        Take some input and perform some operation and then return the result which can be of any type. 
+            1. apply(T t)
+            2. andThen(Function<? super R,? extends V> after)
+            3. compose(Function<? super V,? extends T> before)
+            4. identity() - Returns a function that always returns its input argument.
+           
+- Consumer<T> - void return 
+    
+        Accept some input and perform some required operation and not required to return anything (void)
+            1. accept(T t)
+            2. andThen(Consumer<? super T> after)
+
+- Supplier<R> 
+       
+         - accepts void and returns R
+
+-BiPredicate<T t, T t> - boolean return 
+
             Take some input and perform some conditional check and return BOOLEAN value
             Normal predicate can take only one input parameter and perform some action and return boolean. 
             Sometimes we have requirement to perform some action on two input parameters for this kind of requirement Bipredicate can be used.
@@ -32,7 +41,9 @@ This space is created to demonstrate Pre Defined Functions
                 //remaining default and static methods are same
             }
             
-    BiFunction 
+   
+BiFunction 
+
             It represents a function which takes in two arguments and produces a result.
             
             Hence this functional interface which takes in 3 parameters namely:-
@@ -47,7 +58,9 @@ This space is created to demonstrate Pre Defined Functions
             The main advantage of using a BiFunction is that it allows us to use 2 input arguments while in function
             we can only have 1 input argument.    
             
-    BiConsumer:
+            
+BiConsumer:
+
             The BiConsumer Interface is a part of the java.util.function package which has been introduced since Java 8,
              to implement functional programming in Java. 
              It represents a function which takes in two arguments and produces a result. 
