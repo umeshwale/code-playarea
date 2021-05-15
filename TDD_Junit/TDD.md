@@ -33,6 +33,7 @@
     Good Habits of TDD 
         - Before you write production code check that your test is failing
         - Each test has only 1 reason to fail
+        
         - Write the assertion first 
         - Test Naming convention
             Ex: 
