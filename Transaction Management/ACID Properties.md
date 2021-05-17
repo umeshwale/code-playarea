@@ -41,12 +41,13 @@ I : Isolation :
 
     This is the property of converting parallel schedule to serial schedule. 
     
-    This property ensures that multiple transactions can occur concurrently without leading to the inconsistency of database state. 
+    This property ensures that multiple transactions can occur concurrently without leading to the inconsistency 
+    of database state. 
     Transactions occur independently without interference. 
-    Changes occurring in a particular transaction will not be visible to any other transaction until that particular change in that 
-    transaction is written to memory or has been committed. 
-    This property ensures that the execution of transactions concurrently will result in a state that is equivalent to a state achieved 
-    these were executed serially in some order. 
+    Changes occurring in a particular transaction will not be visible to any other transaction until that particular 
+    change in that transaction is written to memory or has been committed. 
+    This property ensures that the execution of transactions concurrently will result in a state that is equivalent 
+    to a state achieved these were executed serially in some order. 
     
     Example 
     Lets say we have X = 500 & Y = 500 
@@ -67,18 +68,20 @@ I : Isolation :
         4. Write(Z)
 
     Suppose T1 has been executed till Read (Y) and then T2 starts. 
-    As a result , interleaving of operations takes place due to which T2 reads correct value of X but incorrect value of Y and sum computed by 
-    T2: (X+Y = 50, 000+500=50, 500) 
+    As a result , interleaving of operations takes place due to which T2 reads correct value of X but incorrect value of
+    Y and sum computed by 
+        T2: (X+Y = 50, 000+500=50, 500) 
     is thus not consistent with the sum at end of transaction: 
     T1: (X+Y = 50, 000 + 450 = 50, 450). 
     This results in database inconsistency, due to a loss of 50 units.
-    Hence, transactions must take place in isolation and changes should be visible only after they have been made to the main memory. 
+    Hence, transactions must take place in isolation and changes should be visible only after they have been made 
+    to the main memory. 
 
     
 D : Durability:
   
-    This property ensures that once the transaction has completed execution, the updates and modifications to the database are stored in 
-    and written to disk and they persist even if a system failure occurs. 
+    This property ensures that once the transaction has completed execution, the updates and modifications to the 
+    database are stored in and written to disk and they persist even if a system failure occurs. 
     These updates now become permanent and are stored in non-volatile memory. 
     The effects of the transaction, thus, are never lost. 
     
