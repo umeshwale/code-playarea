@@ -62,4 +62,4 @@ Retrieve Employee FIRST_NAME and LAST_NAME in single colum as FULL_NAME separate
 
     SELECT CONCAT (FIRST_NAME, ' ', LAST_NAME) AS 'FULL_NAME'
         FROM EMPLOYEES;
-    
+  
