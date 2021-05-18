@@ -25,7 +25,7 @@ public class counting {
         // GroupBy firstname
         List<Person> people = createPeople();
 
-        // count by Name
+        // count by Name - This counts number of records by name Ex - John =2 , Brad =2
         Map<String, Long> countByName = people.stream()
                 .collect(groupingBy(Person::getFirstName,
                             counting()));
