@@ -85,6 +85,3 @@ D : Durability:
     These updates now become permanent and are stored in non-volatile memory. 
     The effects of the transaction, thus, are never lost. 
     
-    
-    
-    
