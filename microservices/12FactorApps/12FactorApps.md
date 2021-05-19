@@ -1,6 +1,6 @@
 # The Twelve-Factor App
 
-1. [Codebase](/codebase.md)
+1. [Codebase](codebase.md)
 
       One codebase tracked in revision control, many deploys
 2. Dependencies
