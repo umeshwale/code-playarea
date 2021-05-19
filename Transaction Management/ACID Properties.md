@@ -1,6 +1,7 @@
 # ACID Properties of a Transaction 
 
 ACID: 
+
     A - Atomacity
     C - Consistency
     I - Isolation
