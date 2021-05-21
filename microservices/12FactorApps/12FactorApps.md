@@ -3,7 +3,7 @@
 1. [Codebase](codebase.md)
 
       One codebase tracked in revision control, many deploys
-2. Dependencies
+2. [Dependencies](2Dependencies.md)
 
       Explicitly declare and isolate dependencies
 3. Config
