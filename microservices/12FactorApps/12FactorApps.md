@@ -6,7 +6,7 @@
 2. [Dependencies](2Dependencies.md)
 
       Explicitly declare and isolate dependencies
-3. Config
+3. [Config](Config.md)
       
       Store config in the environment
 4. Backing services
