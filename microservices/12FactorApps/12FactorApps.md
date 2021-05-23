@@ -9,7 +9,7 @@
 3. [Config](Config.md)
       
       Store config in the environment
-4. Backing services
+4. [Backing services](BackingServices.md)
       
       Treat backing services as attached resources
 5. Build, release, run
