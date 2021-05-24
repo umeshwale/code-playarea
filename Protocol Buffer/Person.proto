@@ -1,0 +1,34 @@
+syntax = "proto2";
+
+package protobuf;
+
+option java_multiple_files = true;
+option java_package = "com.example.protos";
+option java_outer_classname = "PersonProtos";
+
+message Person {
+  optional int32 age = 1;
+  optional string firstName = 2;
+  optional string lastName = 3;
+  optional string email = 4;
+
+  message Address {
+    optional string addressLine1 = 1;
+    optional string addressLine2 = 2;
+    optional string city = 3;
+    optional string country = 4;
+    optional int32 zip = 5;
+  }
+
+  message Employee {
+      optional int32 employeeId = 1;
+      optional string employerName = 2;
+      message Address {
+          optional string addressLine1 = 1;
+          optional string addressLine2 = 2;
+          optional string city = 3;
+          optional string country = 4;
+          optional int32 zip = 5;
+        }
+     }
+}

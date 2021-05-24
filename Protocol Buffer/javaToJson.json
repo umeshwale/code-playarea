@@ -1,0 +1,24 @@
+{
+  "age": 21,
+  "firstName": "First_Name",
+  "lastName": "Last_Name",
+  "email": "name@org.com",
+  "currentAddress": {
+    "addressLine1": "Address_Line1_Person",
+    "addressLine2": "Address_Line2_Person",
+    "city": "Address_City_Person",
+    "country": "Address_Country_Person",
+    "zip": 123654
+  },
+  "employee": {
+    "employeeId": 123321,
+    "employerName": "Employer_Name",
+    "employerAddress": {
+      "addressLine1": "Address_Line1_Employee",
+      "addressLine2": "Address_Line2_Employee",
+      "city": "Address_City_Employee",
+      "country": "Address_Country_Employee",
+      "zip": 123654
+    }
+  }
+}
