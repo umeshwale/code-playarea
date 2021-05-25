@@ -16,3 +16,7 @@ A codebase is transformed into a (non-development) deploy through three stages:
      of the app’s processes against a selected release.
 
   ![BuildReleaseRun](https://github.com/umeshwale/code-playarea/blob/master/microservices/12FactorApps/BuildReleaseRun.JPG)
+  
+  Maven is like parents who make ready their kids to go to school but they dont go with them to school. Maven should create 
+  production artifactory jar and they dont need to be in production and in production java -jar springboot.jar should be fine 
+  without any maven dependency.
