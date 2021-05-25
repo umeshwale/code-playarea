@@ -15,7 +15,7 @@
 5. Build, release, run
       
       Strictly separate build and run stages
-6. Processes
+6. [Processes](Processes.md)
       
       Execute the app as one or more stateless processes
 7. Port binding
