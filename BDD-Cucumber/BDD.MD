@@ -55,5 +55,4 @@ How to Implement the BDD Approach?
             Given User is navigating to G-mail Login Page
             When User need to enter username as "Username" and password as "Password"
             Then User is successfully navigated to the G-mail Mail Box
-        
-
+       
