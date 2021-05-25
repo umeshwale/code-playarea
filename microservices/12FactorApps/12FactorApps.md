@@ -12,7 +12,7 @@
 4. [Backing services](BackingServices.md)
       
       Treat backing services as attached resources
-5. Build, release, run
+5. [Build, release, run](BuildReleaseRun.md)
       
       Strictly separate build and run stages
 6. [Processes](Processes.md)
