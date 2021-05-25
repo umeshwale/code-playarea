@@ -2,7 +2,7 @@
 
 Strictly separate build and run stages
 
-![Read More](https://12factor.net/build-release-run)
+Read More - https://12factor.net/build-release-run
 
 A codebase is transformed into a (non-development) deploy through three stages:
 
