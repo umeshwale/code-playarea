@@ -18,7 +18,7 @@
 6. [Processes](Processes.md)
       
       Execute the app as one or more stateless processes
-7. Port binding
+7. [Port binding](PortBinding.md)
       
       Export services via port binding
 8. Concurrency
