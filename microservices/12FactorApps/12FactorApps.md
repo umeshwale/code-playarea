@@ -36,3 +36,9 @@
 12. Admin processes
       
       Run admin/management tasks as one-off processes
+      
+      
+Reference:
+      https://12factor.net/
+      https://will.koffel.org/post/2014/12-factor-apps-in-plain-english/
+      
