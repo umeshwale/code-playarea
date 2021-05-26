@@ -27,3 +27,4 @@ Earlier it wasn't possible to convey client which fields are optional and which 
 
 
 That's all about how to use Optional in Java 8 to avoid NullPointerException. It's not full proof and you can argue that instead of a null check you are now checking if optional contains a value or not but main advantage of using Java 8 Optional is that it explicitly indicate that value can be null. This, in turn, results in more aware code than just assuming it can't be null. Optional also allows you to set intelligent default values.
+
