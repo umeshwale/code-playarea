@@ -67,8 +67,7 @@ Below 3 operations are used to implement transaction management in JDBC
         If any SQL fails then we will be able to rollback operation which is already completed using rollback method 
         
         con.rollback();
-        
-        
+                
 Example Code Snippet 
 
         con.setAutoCommit(false)
