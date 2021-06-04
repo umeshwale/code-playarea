@@ -26,5 +26,4 @@
    
     - [Cucumber](BDD-Cucumber/Cucumber.md)
 - Other Readings
-    - [Qualities of Highly Effective Architect](QualitiesOfHighlyEffectiveArchitect.md)
-  
+    - [Qualities of Highly Effective Architect](QualitiesOfHighlyEffectiveArchitect.md)  
