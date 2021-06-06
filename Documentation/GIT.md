@@ -31,5 +31,4 @@
             
             # adds file to the staging area
             [bash]$ git commit –m “Added search operation”
-        
        
